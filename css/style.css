@@ -3,29 +3,35 @@
 
 body {
   margin: 0;
+  background-color:#b9b4b5;
 }
 
 header {
   margin: 0 auto;
   width: 1000px;
+  background-image: url("../images/flag.jpg");
+
 }
 
 header h1 {
   text-align: center;
   margin: 0;
   padding-top: .25em;
+  color: white;
 }
 
 header h2 {
   text-align: center;
   margin: 0;
   padding-bottom: 1em;
+  color: white;
 }
 
 h3 {
   margin: 0;
   margin-top: 10px;
   margin-bottom: 5px;
+  color: #bb010a;
 }
 
 p {
@@ -38,10 +44,15 @@ nav {
   width: 1000px;
   padding: 5px 0;
   text-align: center;
+  background-color: #6f6f81;
+  border-style: solid;
+  border-color: #2a3178;
+
 }
 
 nav a {
   margin: 0 35px;
+  color: #141237;
 }
 
 .floatright {
@@ -53,4 +64,5 @@ nav a {
   margin: 0 auto;
   width: 1000px;
   padding: 5px 15px;
+  background-color: white;
 }
